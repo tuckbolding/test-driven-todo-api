@@ -38,7 +38,7 @@ $(document).ready(function() {
       console.log(json);
 
       // set `allTodos` to todo data (json.data) from API
-      allTodos = json.todos;
+      allTodos = json.data;
 
       // render all todos to view
       render();
